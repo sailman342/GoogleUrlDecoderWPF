@@ -1,0 +1,17 @@
+﻿<Window x:Class="GoogleUrlDecoderWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleUrlDecoderWPF"
+        mc:Ignorable="d"
+        Title="GoogleUrlecoderWPF" Height="592.584" Width="1022.472">
+    <Grid>
+        <Button x:Name="clearButton" Content="Clear" Margin="25,20,0,0" VerticalAlignment="Top" Height="49" Click="clearButtonClick" RenderTransformOrigin="0.544,0.89" HorizontalAlignment="Left" Width="75"/>
+        <Label Content="Paste Google URL here :" Margin="110,31,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="133"/>
+        <TextBox x:Name="googleUrlTextBox" Height="81" Margin="243,10,166,0" TextWrapping="Wrap" VerticalAlignment="Top" KeyUp="googleUrlTextBox_KeyUp"/>
+        <Button x:Name="openInBrowserButton" Content="Open In Browser" Margin="0,23,19,0" VerticalAlignment="Top" Click="openInBrowserButton_Click" RenderTransformOrigin="0.516,1.646" Height="46" HorizontalAlignment="Right" Width="142"/>
+        <TextBox x:Name="resultsTextBox" Margin="25,106,28,24" TextWrapping="Wrap" Text="TextBox"/>
+
+    </Grid>
+</Window>

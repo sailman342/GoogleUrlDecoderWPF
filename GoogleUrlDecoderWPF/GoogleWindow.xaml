@@ -1,0 +1,12 @@
+﻿<Window x:Class="GoogleUrlDecoderWPF.GoogleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleUrlDecoderWPF"
+        mc:Ignorable="d"
+        Title="GoogleWindow" Height="2035.895" Width="1106.081">
+    <Grid>
+        <WebBrowser x:Name="GoogleWebBrowser" HorizontalAlignment="Left" Height="1902" Margin="55,51,0,0" VerticalAlignment="Top" Width="953"/>
+    </Grid>
+</Window>
