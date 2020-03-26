@@ -78,7 +78,9 @@ The first part of the url starts with the way-points addresses or coordinates se
 
 
 
-![image-20200326111048100](C:\Users\alain\source\repos\GoogleUrlDecoderWPF\waypoints.png)
+![](waypoints.png)
+
+
 
 
 
@@ -159,7 +161,9 @@ Following this are itinerary  (the 1b1 mentioned above), used mean, units and la
 
 The demo program provided decodes the urls 
 
-![](C:\Users\alain\source\repos\GoogleUrlDecoderWPF\decoded.png)
+![](decoded.png)
+
+
 
 Simply paste the to be decoded url in the text box and hit return ...
 
